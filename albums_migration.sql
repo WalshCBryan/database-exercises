@@ -1,5 +1,4 @@
 
-CREATE IF NOT EXISTS DATABASE codeup_test_db;
 USE codeup_test_db;
 DROP TABLE IF EXISTS albums;
 
@@ -9,7 +8,7 @@ DROP TABLE IF EXISTS albums;
   artist varchar(50) NOT NULL,
   name varchar(50) NOT NULL,
   release_date int UNSIGNED DEFAULT NULL,
-  sales float NOT NULL,
   genre varchar(50) NOT NULL,
+  sales float NOT NULL,
   PRIMARY KEY (id)
 );
