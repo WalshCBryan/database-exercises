@@ -130,3 +130,5 @@ VALUES ('Guns N Roses','Appetite for Destruction',1987,'Heavy metal, hard rock',
 
 
 select * from albums;
+
+
